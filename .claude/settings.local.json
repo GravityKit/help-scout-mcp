@@ -11,7 +11,11 @@
       "Bash(npm run type-check:*)",
       "Bash(npm run version:minor:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(HELPSCOUT_CLIENT_ID=\"qCJgfjX8a34wTWgn7yWYHUBP6TGHcGFa\" HELPSCOUT_CLIENT_SECRET=\"yS291jdveSs7dUrfqRnRUqSZyVLRjTcV\" LOG_LEVEL=debug timeout 10 npm start)",
+      "Bash(HELPSCOUT_CLIENT_ID=\"qCJgfjX8a34wTWgn7yWYHUBP6TGHcGFa\" HELPSCOUT_CLIENT_SECRET=\"yS291jdveSs7dUrfqRnRUqSZyVLRjTcV\" LOG_LEVEL=debug npx tsx src/index.ts)",
+      "Bash(node test-reports.js)",
+      "Bash(node:*)"
     ],
     "deny": []
   }
